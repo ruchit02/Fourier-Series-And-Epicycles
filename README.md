@@ -19,15 +19,63 @@
 
 ## cosΘ and sinΘ
 
-1.	Now that we understand "why circle has 360 degrees?". Let us now see "what role do cosΘ and sinΘ play?" Let us look at these values first.
+1.	Now that we understand "why circle has 360 degrees?". Let us now see "what role do cosΘ and sinΘ play?" Before I talk about their roles, let us have a look at these values first that most of us have been taught since primary school.
 	![sin cos values](documentation/images/sin-cos-values.JPG)
 
-2.	The question here is "where do these values come from?". So, imagine if you have a unit circle, basically a circle whose radius is 1 units and you make one complete revolution(rotate 360 degrees) starting from the point (1,0) **then** every point (x,y) on the circumference of the unit circle represent values of (cosΘ,sinΘ). \
+2.	Okayyy! The question here is "where do these values come from?". Hmmm, interesting! So, imagine if you have a unit circle, basically a circle whose radius is 1 units and you make one complete revolution(rotate 360 degrees) starting from the point (1,0) **then** every point (x,y) on the circumference of the unit circle represent values of (cosΘ,sinΘ), whoaaa, really?? Let's rephrase it! \
 	Simply speaking, **cosΘ represents all x-values in the cartesian plane** and **sinΘ represents all y-values in the cartesian plane**. Hence, at Θ=30, *cos30=0.866* is the distance of point (x,y) from the origin, in the x-direction. Similarly, *sin30=0.5* is the distance of point (x,y) from the origin, in the y-direction.
 	![unit circle](documentation/images/unit-circle.gif)
 
+## Complex Plane
 
+1.	Great!! We now understand a circle and how cosΘ and sinΘ are related to it! Now, let us tackle a not so interesting topic i.e. **The complex plane**
+2.	Look at this equation:
+		
+		x² + 1 = 0
+		
+	What are the roots of it? Can't answer, right?! This literally put a stop to our mathematics a few hundred years back, quite a lot of problems became unsolvable just because of this equation. Whoa!! how can the math stop, right???! This equation showed us that our mathematics of that time was missing a concept. So, as an answer to it some smart person came up with the idea of **Imaginary Numbers** which basically represents **√-1 as i, called IOTA** \
+	√-1 = i, √-2 = 2i, √-3 = 3i, √-4 = 4i.
+3.	But, the question is 'what makes them imaginary??!!'. To answer this question, I would like to inform you that **before complex numbers were discovered, we only had the real number system**. So, 'what made up the real number system?' Let's have a look at it!
+	
+		Natural Numbers: 		1,2,3,4,5 (only positive numbers)
+		
+		Whole Numbers: 			0,1,2,3,4,5 (includes zero as well)
+		
+		Integers:				-2,-1,0,1,2	(includes negative as well positive numbers)
+		Fractions:				-2/4, -1/2, 0/2, 0.3333, 0.5 (includes terminating or non-terminating repeating numbers)
+		
+		Rational Numbers:		Natural, Whole, Integers, Fractions, all make up the rational number system
+		Irrational Numbers:		Non-terminating, non-repeating numbers basically --- √2, π
+		
+	From the above information, we can say that:
+		
+		Natural numbers are a SUBSET of Whole numbers
+		
+		Whole numbers are a SUBSET of Integers
+		
+		Integers are a SUBSET of Rational numbers
+		Fractions are a SUBSET of Rational numbers
+		
+		Rational numbers are a SUBSET of Real Numbers
+		Irrational numbers are a SUBSET of Real Numbers
 
+	This entire system of numbers is called **The Real Number System**
+	
+4.	Still, 'What are imaginary numbers then??!!'. Okay, calm down! Let us understand just one property and then I'll explain imaginary numbers.
+	The property is: **If you multiply a non-negative number with itself, you get a POSITIVE number**. Whoaa! what??! Okay let's see. 
+	
+		Multiply 0 with 0, you get 0 (whole numbers)
+		Multiply -1 with -1, you get 1 (integers)
+		Multiple 2/5 by 2/5, you get 4/25 (terminating fractions)
+		Multiply √3 by √3, you get 3 (irrational numbers)
+		Multiply 0.3333 by 0.3333, you get 0.1111 (non-terminating fractions)
+		
+	Got it! So, what?\
+	Well, now multiply √-3 by √-3, you get -3. OMG, this actually doesn't comply with the real number system!
+	Hence, these numbers aren't a part of the real number system and **they are called imaginary numbers only for our convenience because intuitively its easy for us to imagine that way**
+
+5.	Also, **any point: (x,y)** in the cartesian plane can be represented in the complex plane as **x + iy**. Having said this, let us now come back to our unit circle. As I said earlier, **any point: (x,y) on the circumference of a unit circle could also be expressed as (cosΘ, sinΘ)**. So, 'how will we represent these points in the complex plane?' \
+	Simple, as follows: **cosΘ + i sinΘ**. This is also called the **Euler's Identity**
 
 ### credits
 
