@@ -74,8 +74,19 @@
 	Well, now multiply √-3 by √-3, you get -3. OMG, this actually doesn't comply with the real number system!
 	Hence, these numbers aren't a part of the real number system and **they are called imaginary numbers only for our convenience because intuitively its easy for us to imagine that way**
 
-5.	Also, **any point: (x,y)** in the cartesian plane can be represented in the complex plane as **x + iy**. Having said this, let us now come back to our unit circle. As I said earlier, **any point: (x,y) on the circumference of a unit circle could also be expressed as (cosΘ, sinΘ)**. So, 'how will we represent these points in the complex plane?' \
+5.	Also, **any point: (x,y)** in the cartesian plane can be represented in the complex plane as **x + iy**.
+
+## Euler's Identity
+
+1.	Let us now revisit the concept of a unit circle. As I said earlier, **any point: (x,y) on the circumference of a unit circle could also be expressed as (cosΘ, sinΘ)**. So, 'how will we represent these points in the complex plane?' \
 	Simple, as follows: **cosΘ + i sinΘ**. This is also called the **Euler's Identity**
+	
+2.	So, this brings us to our next question, "how do we represent a circle who has a radius more than 1?!". Well, if you carefully observe the identity **cosΘ + i sinΘ**, we could re-write it as follows: **1\*(cosΘ + i sinΘ)**, where 1 is the radius of the circle. \
+	So, a generalized form of this proof would be: **r\*(cosΘ + i sinΘ)**. To recall, the **Euler's Identity basically represents a point on a circle with radius r**. Let us now look at the famous Discrete Fourier Transform Equation
+
+## Discrete Fourier Transform
+
+	![dft equation](documentation/images/dft-equation.svg)
 
 ### credits
 
