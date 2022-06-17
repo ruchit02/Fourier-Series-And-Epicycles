@@ -20,7 +20,7 @@
 ## cosΘ and sinΘ
 
 1.	Now that we understand "why circle has 360 degrees?". Let us now see "what role do cosΘ and sinΘ play?" Let us look at these values first.
-	![image description](documentation/images/image.JPG)
+	![image description](documentation/images/sin-cos-values.JPG)
 
 
 
