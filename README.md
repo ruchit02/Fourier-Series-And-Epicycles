@@ -20,16 +20,18 @@
 ## cosΘ and sinΘ
 
 1.	Now that we understand "why circle has 360 degrees?". Let us now see "what role do cosΘ and sinΘ play?" Let us look at these values first.
-	![image description](documentation/images/sin-cos-values.JPG)
+	![sin cos values](documentation/images/sin-cos-values.JPG)
+
+2.	The question here is "where do these values come from?". So, imagine if you have a unit circle, basically a circle whose radius is 1 units and you make one complete revolution(rotate 360 degrees) starting from the point (1,0) **then** every point (x,y) on the circumference of the unit circle represent values of (cosΘ,sinΘ). \
+	Simply speaking, **cosΘ represents all x-values in the cartesian plane** and **sinΘ represents all y-values in the cartesian plane**. Hence, at Θ=30, *cos30=0.866* is the distance of point (x,y) from the origin, in the x-direction. Similarly, *sin30=0.5* is the distance of point (x,y) from the origin, in the y-direction.
+	![unit circle](documentation/images/unit-circle.gif)
 
 
 
 
+### credits
 
-
-
-
-
+1.	unit circle: https://www.wikiwand.com/en/Unit_circle
 
 
 
