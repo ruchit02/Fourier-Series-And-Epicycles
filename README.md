@@ -86,7 +86,7 @@
 
 ## Discrete Fourier Transform
 
-	![dft equation](documentation/images/dft-equation.svg)
+![dft equation](documentation/images/dft-equation.svg)
 
 ### credits
 
